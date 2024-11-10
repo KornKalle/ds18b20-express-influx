@@ -1,0 +1,18 @@
+{
+  "name": "ds18b20-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nils Berg, https://github.com/KornKalle ",
+  "license": "MIT",
+  "description": "This application reads sensor data from DS18B20 temperature sensors on a Raspberry Pi and writes the data to an InfluxDB instance every 5 minutes.  ",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "@influxdata/influxdb-client-apis": "^1.35.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-cron": "^3.0.3"
+  }
+}
