@@ -1,5 +1,5 @@
 # Use the official Node.js LTS version 20 image as the base image
-FROM node:20
+FROM arm64v8/node:20-alpine
 
 # Set the working directory
 WORKDIR /usr/src/app
